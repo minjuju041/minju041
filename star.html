@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>SPACE</title>
+<style>
+*{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 480;
+    font-style: normal;
+}
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url('img/star.jpg');
+    
+}
+
+.main-header {
+    background-color: #11111100;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.nav-links a:hover {
+    color: #3091ff; 
+}
+
+.main-footer {
+    text-align: center;
+    padding-left: 100px;
+    padding-bottom: 18px;
+    background-color: #11111100;
+    color: white;
+}
+
+.logo {
+    font-weight: normal; 
+    font-size: 20px;
+    text-decoration: none; 
+    color: white; 
+    margin-left: 80px;
+}
+
+.title h1 {
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    text-align: left;
+    color: rgb(203, 203, 203);
+    font-size: 18px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.image-text img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-text .text {
+    width: 60%;
+    padding: 0 20px;
+}
+
+.image-text h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.image-text h2 {
+    font-size: 22px;
+    color: white;
+}
+
+.image-text p {
+    font-size: 16px;
+    color: rgb(203, 203, 203);
+}
+
+.title-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image-content {
+    flex: 1;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.star-lifecycle {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+.star-lifecycle h2 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.star-lifecycle h4 {
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.lifecycle-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lifecycle-item {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.lifecycle-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.lifecycle-content {
+    padding: 20px;
+}
+
+.lifecycle-content h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lifecycle-content p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+    .movie-table, .album-table {
+        border-spacing: 5px;
+    }
+
+    .movie-table td, .album-table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .movie-table td img, .album-table td img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-header {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .logo {
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .title-content {
+        flex-direction: column;
+    }
+
+    .text-content, .image-content {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .title h1 {
+        font-size: 36px;
+    }
+
+    .title p {
+        font-size: 16px;
+    }
+
+    .lifecycle-item {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jaro:opsz@6..72&display=swap" 
+        rel="stylesheet">
+
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">🜸 S P A C E</a>
+            <ul class="nav-links">
+                <li><a href="outline.html">Outline</a></li>
+                <li><a href="feature.html">Feature</a></li>
+                <li><a href="planet.html">Planet</a></li>
+                <li><a href="star.html">Star</a></li>
+                <li><a href="recommend.html">Recommend</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="title">
+        <div class="title-content">
+            <div class="text-content">
+                <h1>Star</h1>
+                <p>
+                    별이란 무엇일까? <br>
+                    <br>별은 핵융합을 통하여 스스로 빛을 내는 천체로 정의된다.
+                    별은 차갑고 어두운 성간(星間)에서 태어나 우주를 밝히고 또 데운다. <br> 별은 인간에게 우주를 가르쳐 주기도 한다.
+                    태곳적부터 인간은 어두운 밤에 빛나는 별을 보고 우주를 인식하게 되었다.
+                </p>
+            </div>
+            <div class="image-content">
+                <img src="img/ssss.jpg" class="responsive">
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <section class="star-lifecycle">
+        <h2>Star life : 별의 일생</h2>
+        <h4>별의 탄생과 죽음</h4>
+        <div class="lifecycle-container">
+            <div class="lifecycle-item">
+                <img src="img/birth (2).jpeg" class="lifecycle-image">
+                <div class="lifecycle-content">
+                    <h3>✦ 탄생</h3>
+                    <p>별은 거대한 가스와 먼지 구름에서 태어난다. 이 구름이 중력에 의해 수축하면서 온도와 밀도가 증가하고, 결국 핵융합 반응이 시작되어 새로운 별이 탄생합니다.</p>
+                </div>
+            </div>
+            <div class="lifecycle-item">
+                <img src="img/birth (3).jpeg" class="lifecycle-image">
+                <div class="lifecycle-content">
+                    <h3>✦ 생존</h3>
+                    <p>별의 생애 대부분은 주계열성 단계에서 보낸다. 이 단계에서 별은 수소를 헬륨으로 융합하며 안정적으로 에너지를 생성한다. 우리의 태양이 바로 이 단계에 있다.</p>
+                </div>
+            </div>
+            <div class="lifecycle-item">
+                <img src="img/birth (1).jpeg"class="lifecycle-image">
+                <div class="lifecycle-content">
+                    <h3>✦ 죽음</h3>
+                    <p>별의 죽음은 그 질량에 따라 다양한 형태를 띤다. 작은 별은 백색왜성이 되고, 큰 별은 초신성 폭발을 거쳐 중성자별이나 블랙홀이 된다..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <br><br><br><br><br><br><br><br>
+    
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Kaywon Web Publishing</p>
+    </footer>
+</body>
+</html>

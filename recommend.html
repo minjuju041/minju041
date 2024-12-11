@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>SPACE</title>
+    <style>
+*{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 480;
+    font-style: normal;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url('img/star.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.main-header {
+    background-color: #11111100;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.nav-links a:hover {
+    color: #3091ff; 
+}
+
+.main {
+    text-align: left;
+    padding: 100px 40px;
+    color: white;
+}
+
+.main h1{
+    font-size: 70px;
+    padding-left: 400px;
+}
+
+.main p{
+    font-size: 18px;
+    padding-left: 400px;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 18px;
+    background-color: #11111100;
+    color: white;
+}
+
+.main img{
+    float: right;
+    margin: 0;
+    padding-right: 5%;
+    max-width: 30%;
+    height: auto;
+    display: block;
+}
+
+.logo {
+    font-weight: normal; 
+    font-size: 20px;
+    text-decoration: none; 
+    color: white; 
+    margin-left: 80px;
+}
+
+.movie-table, .album-table {
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    border-spacing: 15px;
+    color: white;
+}
+
+.movie-table td, .album-table td {
+    width: 20%; 
+    text-align: center;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.movie-table td b, .album-table td b{
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+
+.movie-table td img {
+    width: 100%;
+    height: auto;
+    max-width: 220px;
+    max-height: 330px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.album-table td img {
+    width: 100%;
+    height: auto;
+    max-width: 180px;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.title h1{
+    text-align: left;
+    margin-left: 280px;
+    color: white;
+    font-size: 48px;
+    padding-top: 80px;
+}
+
+.title p{
+    text-align: left;
+    margin-left: 280px;
+    color: rgb(203, 203, 203);
+    font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+    .movie-table, .album-table {
+        border-spacing: 5px;
+    }
+
+    .movie-table td, .album-table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .movie-table td img, .album-table td img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-header {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .logo {
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    .title h1 {
+        text-align: center;
+        margin-left: 0;
+        font-size: 32px;
+        padding-top: 40px;
+    }
+
+    .title p {
+        text-align: center;
+        margin-left: 0;
+        font-size: 16px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jaro:opsz@6..72&display=swap" 
+        rel="stylesheet">
+
+<header class="main-header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">🜸 S P A C E</a>
+        <ul class="nav-links">
+            <li><a href="outline.html">Outline</a></li>
+            <li><a href="feature.html">Feature</a></li>
+            <li><a href="planet.html">Planet</a></li>
+            <li><a href="star.html">Star</a></li>
+            <li><a href="recommend.html">Recommend</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="title">
+    <h1>Recommend : Universe Movie</h1>
+    <p>
+        많은 사람들이 좋아한 해외 우주 영화 TOP 5
+    </p>
+</section>
+
+
+<br>
+<table class="movie-table">
+    <tr>
+        <td>
+            <img src="img/movie3.jpg">
+            <p> 
+                < 월-E > <br>2008 <br>
+            </p>
+            <b>황폐화된 지구에 홀로 남겨진 청소 로봇 월-E의 감동적인 우주 모험을 그린 픽사의 애니메이션 영화</b>
+        </td>
+        <td>
+            <img src="img/movie5.jpg">
+            <p>
+                < 그래비티 ><br>2014
+            </p>
+            <b>우주에서 고립된 두 우주비행사의 생존을 그린 긴장감 넘치는 SF 스릴러 영화</b>
+        </td>
+        <td>
+            <img src="img/movie2.jpg">
+            <p>
+                < 인터스텔라 ><br>2014
+            </p>
+            <b>지구 환경 악화로 인류의 생존을 위해 새로운 행성을 찾아 떠나는 우주 탐사 여정을 그린 SF 서사 영화</b>
+        </td>
+        <td>
+            <img src="img/movie.jpg">
+            <p>
+                < 마션 ><br>2015
+            </p>
+            <b>화성에 홀로 남겨진 우주비행사의 생존과 구출 작전을 그린 SF 드라마 영화.</b>
+        </td>
+        <td>
+            <img src="img/movie4.jpg">
+            <p>
+                < 더 문 ><br>2023
+            </p>
+            <b>달 탐사 중 예기치 못한 사고를 겪는 우주비행사들의 이야기를 그린 한국의 SF 우주 영화. </b>
+        </td>
+    </tr>
+</table>
+
+<section class="title">
+    <h1>Recommend : Universe Music</h1>
+    <p>
+        우주를 담은 음악 플레이리스트 (해외/국내)
+    </p> <br>
+</section>
+
+    
+<table class="album-table">
+    <tr>
+        <td>
+            <img src="img/music.jpg">
+            <p>♫ A Sky Full of Stars <br>Coldplay</p>
+        </td>
+        <td>
+            <img src="img/music2.jpg">
+            <p>♫ Across the Universe <br>The Beatles </p>
+        </td>
+        <td>
+            <img src="img/music10.jpg">
+            <p>♫ Space Song<br>Beach House</p>
+        </td>
+        <td>
+            <img src="img/music4.jpg">
+            <p>♫ Rocket Man<br>Elton John</p>
+        </td>
+        <td>
+            <img src="img/music8.jpg">
+            <p>♫ Fly me to the moon<br>Bart Howard</p>
+        </td>
+    </tr>
+</table>
+
+<br><br>
+
+<table class="album-table">
+    <tr>
+        <td>
+            <img src="img/music5.jpg">
+            <p>♫ 혜성<br>윤하</p>
+        </td>
+        <td>
+            <img src="img/music6.jpg">
+            <p>♫ Gravity<br>태연 (TAEYEON)</p>
+        </td>
+        <td>
+            <img src="img/music9.jpg">
+            <p>♫ D (Half moon)<br>딘 (DEAN)</p>
+        </td>
+        <td>
+            <img src="img/music3.jpg">
+            <p>♫ satellite<br>수지 (Suzy)</p>
+        </td>
+        <td>
+            <img src="img/music11.jpg">
+            <p>♫ Cosmic <br>Red Velvet (레드벨벳) </p>
+        </td>
+    </tr>
+</table>
+
+<br><br><br>
+
+<footer class="main-footer">
+    <p>&copy; 2024 Kaywon Web Publishing</p>
+</footer>
+
+</body>
+</html>

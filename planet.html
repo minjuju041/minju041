@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>SPACE</title>
+<style>
+*{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 480;
+    font-style: normal;
+}
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url('img/star.jpg');
+    
+}
+
+.main-header {
+    background-color: #11111100;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.nav-links a:hover {
+    color: #3091ff; 
+}
+
+.main-footer {
+    text-align: center;
+    padding-left: 100px;
+    padding-bottom: 18px;
+    background-color: #11111100;
+    color: white;
+}
+
+.logo {
+    font-weight: normal; 
+    font-size: 20px;
+    text-decoration: none; 
+    color: white; 
+    margin-left: 80px;
+}
+
+.title h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 70px;
+}
+
+.title p{
+    text-align: center;
+    color: rgb(203, 203, 203);
+    font-size: 18px;
+}
+
+.responsive {
+  max-width: 100%; 
+  height: auto;  
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.image-text img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-text .text {
+    width: 60%;
+    padding: 0 20px;
+}
+
+.image-text h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.image-text h2 {
+    font-size: 22px;
+    color: white;
+}
+
+.image-text p {
+    font-size: 16px;
+    color: rgb(203, 203, 203);
+}
+
+@media (max-width: 768px) {
+    .movie-table, .album-table {
+        border-spacing: 5px;
+    }
+
+    .movie-table td, .album-table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .movie-table td img, .album-table td img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-header {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .logo {
+        margin: 0 auto;
+        font-size: 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jaro:opsz@6..72&display=swap" 
+        rel="stylesheet">
+
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">🜸 S P A C E</a>
+            <ul class="nav-links">
+                <li><a href="outline.html">Outline</a></li>
+                <li><a href="feature.html">Feature</a></li>
+                <li><a href="planet.html">Planet</a></li>
+                <li><a href="star.html">Star</a></li>
+                <li><a href="recommend.html">Recommend</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="title">
+        <h1>Solar System</h1>
+        <p>
+        태양계는 태양을 중심으로 다양한 천체들이 공전하는 시스템으로, 우리 은하의 나선 팔에 위치하고 있다. <br>
+        태양계는 내행성 (지구형 행성)과 외행성 (목성형 행성) 8개, 왜소행성,위성,소행성과 혜성 등으로 구성된다. <br><br>
+
+        태양계는 약 46억 년 전에 형성되었다고 추정되며, <br> 대부분의 큰 천체들은 태양 주위를 거의 같은 평면에서 공전하고, 대부분 시계 반대 방향으로 움직인다. <br><br>
+        </p>
+
+        <br><br>
+        <img src="img/Frame 2.png" style="display: block; margin: auto;" class="responsive">
+    </section>
+
+    <br><br><br><br><br><br><br><br>
+    
+    <section class="content">
+        <div class="image-text">
+            <img src="img/s.png">
+            <div class="text">
+                <h1>✦ Solar System : Mercury</h1>
+                <h2>태양계의 첫 번째 행성, 수성</h2>
+                <p>수성의 평균 반지름은 2,439.7km로, 지구 반지름의 약 38%에 불과하다. <br>
+                    그러나 크기에 비해 매우 밀도가 높아 지구 다음으로 밀도가 높은 행성이다. <br>
+                    수성의 평균 밀도는 5,430 kg/m³로, 이는 거대한 금속 핵 때문이다.<br><br>
+    
+                    표면은 달과 매우 유사하며, 수많은 크레이터로 덮여 있다. <br>
+                    수성의 대기는 매우 희박한 외기권으로, 주로 수소, 헬륨, 산소, 나트륨, 칼륨, 칼슘 등으로 <br>구성되어 있다.<br><br>
+                    
+                    표면 온도는 극단적으로 변화한다. 낮 동안에는 최대 427°C까지 올라가고, 밤에는 -183°C까지 <br>떨어질 수 있다. <br></p>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="image-text">
+            <img src="img/g.png">
+            <div class="text">
+                <h1>✦ Solar System : Venus</h1>
+                <h2>태양계의 두 번째 행성, 금성</h2>
+                <p>금성은 크기와 질량 면에서 지구와 매우 유사하여 '지구의 쌍둥이'로 불리기도 한다. 지름은 12,104km로 지구의 95% 정도이다. <br><br>
+
+                    대기는 매우 독특하다. 대기의 96.5%가 이산화탄소로 구성되어 있으며, 지표면 기압은 
+                    지구의 약 90배에 달한다. 두꺼운 대기로 인해 극심한 온실효과가 발생하여 표면 온도가 평균 462°C에 이른다.<br><br>
+    
+                    표면은 대부분 화산암으로 이루어져 있으며, 많은 크레이터와 화산들이 존재한다. <br>
+                    최근 연구에 따르면, 금성의 테세라(tesserae) 고원 지대는 초기 지구의 대륙 형성과 <br>
+                    유사한 과정을 거쳐 형성되었을 가능성이 있다고 한다.<br></p>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="image-text">
+            <img src="img/j.png">
+            <div class="text">
+                    <h1>✦ Solar System : Earth</h1>
+                    <h2>태양계의 세 번째 행성, 지구</h2>
+                    <p>
+                        지구는 평균 반지름이 약 6,371km인 암석형 행성이다. 내부는 중심부의 고체 철-니켈 내핵, <br>
+                        액체 외핵, 맨틀, 그리고 지각으로 구성되어 있다. 표면의 약 70.8%는 물로 덮여 있으며, <br> 
+                        나머지 29.2%는 육지로 구성되어 있다. <br><br>
+        
+                        대기는 주로 질소(약 78%)와 산소(약 21%)로 이루어져 있으며, 아르곤, 이산화탄소, 수증기 등의 <br>미량 기체도 포함되어 있다. <br><br>
+        
+                        자전축을 중심으로 하루에 한 번 자전하며, 이는 낮과 밤을 만든다. 자전축은 약 23.5도 기울어져 <br>있어 계절 변화를 유발한다. <br><br>
+                    </p>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="image-text">
+            <img src="img/h.png">
+            <div class="text">
+                <h1>✦ Solar System : Mars</h1>
+                <h2>태양계의 네 번째 행성, 화성</h2>
+                <p>
+                    화성의 반지름은 약 3,400km로, 지구의 약 절반 크기이며, 질량은 지구의 10분의 1인 약 6.4×10236.4×10 23kg이다. <br><br>
+                    대기는 매우 얇고, 주로 이산화탄소(약 95%)로 구성되어 있으며, 아르곤과 질소가 각각 약 1.9% 포함되어 있다. <br><br>
+    
+                    표면은 주로 현무암과 안산암으로 이루어져 있으며, 붉은 색을 띠는 것은 주로 산화철 때문이다. <br>
+                    극지방에는 물과 이산화탄소 얼음으로 이루어진 극관이 존재하며, 계절에 따라 변화한다. <br><br>
+                </p>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="image-text">
+            <img src="img/m.png">
+            <div class="text">
+                <h1>✦ Solar System : Jupiter </h1>
+                <h2>태양계의 다섯 번째 행성, 목성</h2>
+                <p>
+                    목성의 지름은 약 14만 3,000km로 지구의 11배에 달한다. 질량은 태양계의 다른 모든 행성을 합친 것보다 2.5배 더 무겁다. <br><br>
+    
+                    주로 수소(약 90%)와 헬륨(약 10%)으로 구성된 거대한 가스 행성이다. 내부로 갈수록 <br>
+                    압력이 증가하여 수소가 액체 상태로 존재하며, 더 깊은 곳에서는 금속성 수소 층이 형성된다. <br>
+                    중심부에는 암석형 핵이 있을 것으로 추정된다. <br><br>
+                    
+                    대기는 복잡한 구조를 가지고 있으며, 여러 층의 구름으로 덮여 있다. 가장 유명한 대기 현상은 <br>
+                    대적점으로, 수백 년 동안 지속되고 있는 거대한 폭풍이다. 목성의 빠른 자전으로 인해 <br>
+                    강력한 제트기류가 형성되어 특징적인 줄무늬 패턴을 만든다. <br><br>
+                </p>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="image-text">
+            <img src="img/t.png">
+            <div class="text">
+                <h1>✦ Solar System : Saturn</h1>
+                <h2>태양계의 여섯 번째 행성, 토성</h2>
+                <p>
+                   토성의 반지름은 약 58,232km로 지구의 9배에 달한다. 이 거대한 행성은 주로 수소와 헬륨으로 <br>
+                   구성된 가스 행성이다. 평균 밀도는 0.687 g/cm³로 물보다 낮아, 태양계에서 유일하게 <br>물에 뜰 수 있는 행성이다. <br><br>
+    
+                   대기는 주로 수소와 헬륨으로 이루어져 있으며, 소량의 메탄, 암모니아, 에탄 등도 포함되어 있다. <br>
+                   표면 온도는 약 -185°C에서 -122°C 사이이다. 토성에는 매우 강한 바람이 불어, 적도 지역에서는 <br>시속 1,800km에 달하는 바람이 관측되었다. <br><br>
+    
+                   토성의 가장 눈에 띄는 특징은 아름다운 고리 시스템이다. 이 고리들은 주로 얼음 입자와 암석 조각들로 구성되어 있다. <br><br>
+                </p>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="image-text">
+            <img src="img/c.png">
+            <div class="text">
+                <h1>✦ Solar System : Uranus</h1>
+                <h2>태양계의 일곱 번째 행성, 천왕성</h2>
+                <p>
+                   천왕성은 지구 질량의 약 14.5배이며, 지름은 지구의 약 4배이다. 밀도는 1.27 g/cm³으로 <br>
+                   토성 다음으로 낮다.주로 물, 암모니아, 메탄 등의 얼음과 암석으로 구성되어 있어 <br>
+                   '얼음 거대 행성'으로 분류된다. <br><br>
+    
+                   천왕성의 대기는 주로 수소(83%)와 헬륨(15%), 그리고 소량의 메탄(1.99%)으로 구성되어 있다. <br>
+                   대기는 복잡한 층상 구조를 가지고 있으며, 태양계에서 가장 차가운 대기를 보유하고 있다. <br><br>
+    
+                   천왕성은 13개의 알려진 고리를 가지고 있다. 이 고리들은 주로 얼음과 어두운 유기물로 <br>구성되어 있으며, 
+                   토성의 고리에 비해 훨씬 어둡고 희미하다. 내부는 암석과 얼음으로 구성된 핵을 중심으로 여러 층의 가스로 이루어져 있다.<br><br>
+                </p>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="image-text">
+            <img src="img/hw.png">
+            <div class="text">
+                <h1>✦ Solar System : Neptune</h1>
+                <h2>태양계의 여덟 번째 행성, 해왕성</h2>
+                <p>
+                   해왕성은 지구 질량의 약 17배, 부피는 약 58배에 달하는 거대한 행성이다. <br>
+                   평균 밀도는 1.64 g/cm³로, 주로 얼음, 암모니아, 메탄으로 구성된 '얼음 거대 행성'이다.<br><br>
+                
+                   대기는 주로 수소(80%)와 헬륨(19%), 그리고 소량의 메탄(1.5%)으로 구성되어 있다. <br>메탄에 의한 빨간빛 흡수로 인해 특징적인 청색을 띤다.<br>
+                   대기에는 매우 강한 바람이 불어, 속도가 시속 2,100km에 이르는 태양계에서 <br>
+                   가장 강력한 바람이 관측되었다. 대기 상층부의 온도는 약 -218°C로 매우 낮지만, <br>중심부 온도는 약 5,100°C에 달한다.<br><br>
+    
+                   내부는 암석과 얼음으로 구성된 핵을 중심으로 물, 암모니아, 메탄의 얼음 맨틀, <br>그리고 수소와 헬륨이 풍부한 대기층으로 이루어져 있다.<br><br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Kaywon Web Publishing</p>
+    </footer>
+</body>
+</html>
